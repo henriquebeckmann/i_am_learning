@@ -1,0 +1,43 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# History files
+.Rhistory
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.cfg
+
+# Distribution / packaging
+__pycache__/
+bin/
+lib/
+debug/
+target/
+Cargo.lock
