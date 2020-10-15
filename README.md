@@ -12,7 +12,7 @@ This repository contains code snippets of programming languages that I am learni
 
 ### :pushpin: Sources
 
-####Python
+**Python**<br>
 https://docs.python.org/3.9/tutorial/index.html
 
 **R**<br>
@@ -21,8 +21,8 @@ https://cran.r-project.org/manuals.html
 **Rust**<br>
 https://doc.rust-lang.org/book/
 
-####Web
-**HTML<br>**
+**Web**<br><br>
+**HTML**<br>
 https://developer.mozilla.org/en-US/docs/Web/HTML
 
 **CSS**<br>
