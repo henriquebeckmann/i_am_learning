@@ -34,11 +34,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ### :postbox: Faq
 **Question:** What are the sources used to develop the projects?
 
-**Answer:** The sources used to develop the projects were available in the project folder.
+**Answer:** The sources used to develop the projects are available in the sources.md file.
 
 
 
 ### :closed_book: License
 
 Released in 2020.
-This project is under the [GNU General Public License v3.0 license](https://github.com/henriquebeckmann/i_am_learning/blob/main/LICENSE).
+This project is under the [MIT license](https://github.com/henriquebeckmann/i_am_learning/blob/main/LICENSE).
