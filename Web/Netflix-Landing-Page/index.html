@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix | Landing Page UI Design</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+       <header>
+           <a href="#" target="_blank" class="logo"><img src="images/logo.png" alt="logo"></a>
+           <ul class="navigation">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">TV Shows</a></li>
+               <li><a href="#">Movies</a></li>
+               <li><a href="#">Latest</a></li>
+               <li><a href="#">My List</a></li>
+           </ul>
+           <div class="search">
+               <input type="text" placeholder="Search">
+               <i class="fa fa-search" aria-hidden="true"></i>
+           </div>
+       </header>
+       <div class="banner">
+           <img src="images/bg.jpg" class="bg">
+           <div class="content">
+               <img src="images/name.png" class="movieTitle">
+               <h4>
+                   <span>2020</span>
+                   <span><i>12+</i></span>
+                   <span>1h 55min</span>
+                   <span>Action</span>
+               </h4>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, maiores. Voluptate
+               commodi rem, aliquam illo, amet esse cupiditate provident dicta omnis animi beatae accusantium
+               delectus, neque voluptas earum iste doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Deserunt autem, sequi tempore minus sunt unde sint eius quia quis asperiores ratione
+               repudiandae cupiditate</p>
+               <div class="buttons">
+                   <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                   <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+               </div>
+           </div>
+           <a href="#" class="play" onclick="toggleVideo();"><img src="images/play.png" alt="play">Watch Trailer</a>
+       </div>
+       <div class="trailer">
+           <video src="trailer.mp4" controls="true"></video>
+           <img src="images/close.png" alt="close" class="close" onclick="toggleVideo();"/>
+       </div>
+    </body>
+</html>
